@@ -1,0 +1,75 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Tahoma', sans-serif;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+h1 {
+	font-size: 175%;
+	color: darkcyan;
+	text-align: center;
+	margin: 20px 0px;
+}
+h2 {
+	font-size:  125%;
+}
+
+article.food-item {
+	background-color: seashell;
+	border: 1px solid black; 
+	float:  left;
+	margin: 0px 2% 4% 2%;
+	position: relative;
+}
+article.food-item > h2 {
+	padding: 5px 30px;
+	float: right;
+	border: 1px solid black;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+}
+article.food-item > h2.chicken {
+	background-color:  saddlebrown;
+	color: whitesmoke;
+}
+article.food-item > h2.beef {
+	background-color:  slategrey;
+	color: ghostwhite;
+}
+article.food-item > h2.sushi {
+	background-color: sandybrown;
+}
+
+article.food-item > p {
+	clear:  both;
+	position: relative;
+	padding: 1% 2% 3% 2%; 
+	margin-top: 40px;
+}
+
+@media (min-width: 992px){
+	article.food-item {
+		width: 29%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	article.food-item {
+		width: 46%;
+	}
+
+}
+
+
+/*
+
+completed - 15,14,13,12,11,10,9,8,7,6,5,4,3,2,1
+*/
