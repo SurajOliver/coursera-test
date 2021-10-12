@@ -13,9 +13,16 @@ h2 {
 	font-size:  125%;
 }
 
+article.food-item {
+	background-color: seashell;
+	border: 1px solid black;
+}
+
+
 /*
 
 Pending - 
+WIP - 14
 Completed - 15
 
 */
